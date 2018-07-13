@@ -1,0 +1,108 @@
+ul
+{
+	list-style-type: none;
+	text-align: left;
+	color: blue;
+	font-size: x-large;
+}
+
+a {
+    color:#33348e;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+nav {
+    background-color:#f442bc;
+    font-family:verdana,arial,times,serif;
+    font-size:.875em;
+    overflow:hidden;
+    padding-left:4%;
+}
+nav ul {
+    padding:0;
+    margin:0;
+}
+nav ul li {
+    list-style-type:none;
+    float:left;
+    position:relative;
+    padding:0;
+    margin:0;
+	font-size: small;
+}
+nav ul li a {
+    display:block;
+    color:#fff;
+    padding:.875em .625em;
+    margin:0;
+}
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color:#fff;
+    color:#33348e;
+    text-decoration:underline;
+    font-weight:normal;
+}
+/* These selectors style the active page's menu */
+#home .home a,
+#requests .requests a,
+#evaluations .evaluations a,
+#results .results a,
+#about .about a {
+    color:#33348e;
+    background-color:#fff;
+    pointer-events:none;
+}
+
+body
+{
+	background:#d33f70;
+	background-image:url("music-backdrop.jpg");
+	background-size:50%;
+	background-repeat: no-repeat;
+    background-position: 625px 115px;
+	font-family:"Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+	font-size:small;
+	margin:8px 0 16px;
+	text-align:center;
+}
+
+
+
+/**** Logo Section  *****/
+h1
+{
+	background-color:#c40166;
+	margin:0;
+	min-height:0;
+	padding:0;
+	/*text-decoration:navy;*/
+	/*text-indent:-8000px;*/
+	font:Tahoma;
+	
+	
+	
+}
+.home_paragraph
+{    
+	font-size: 100px;
+	font: sans-serif;
+	text-align: left;
+}
+
+
+.fillerword {
+	font-size: x-large;
+	color: #00ff00;
+}
+
+.description
+{
+	border:none;
+	color: #870631;
+	display:block;
+	font-size:95%;
+	font-weight:700;
+	line-height:150%;
+	padding:0 0 1px;
+}
